@@ -1,0 +1,35 @@
+ADMIN USERS:
+============
+Username: admin@bdo.co.zw
+Password: admin123
+
+Username: admin.test@bdo.co.zw
+Password: admin456
+
+REGULAR USERS:
+==============
+Username: john.doe@bdo.co.zw
+Password: user123
+
+Username: jane.smith@bdo.co.zw
+Password: user456
+
+Username: mike.johnson@bdo.co.zw
+Password: user789
+
+Username: sarah.wilson@bdo.co.zw
+Password: user101
+
+DEPARTMENT BREAKDOWN:
+=====================
+Tax Department:
+- john.doe@bdo.co.zw (Tax)
+- sarah.wilson@bdo.co.zw (Tax)
+
+Audit Department:
+- jane.smith@bdo.co.zw (Audit)
+
+IT Department:
+- mike.johnson@bdo.co.zw (IT)
+- admin@bdo.co.zw (IT)
+- admin.test@bdo.co.zw (IT)

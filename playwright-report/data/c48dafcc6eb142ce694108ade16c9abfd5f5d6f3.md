@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - img "BDO Logo" [ref=e7]
+    - navigation "Main navigation" [ref=e8]:
+      - button "Active Quiz" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+        - generic [ref=e13]: Active Quiz
+      - button "My History" [ref=e14] [cursor=pointer]:
+        - img [ref=e15]
+        - generic [ref=e17]: My History
+    - generic [ref=e18]:
+      - button "Login" [ref=e19] [cursor=pointer]
+      - button "Register" [ref=e20] [cursor=pointer]:
+        - img [ref=e21]
+        - text: Register
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - img "BDO Logo" [ref=e28]
+        - heading "Sign in to BDO Skills Pulse" [level=2] [ref=e29]
+        - paragraph [ref=e30]: Training Effectiveness & Competency Validation Platform
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Email address
+            - textbox "Email address" [ref=e35]: invalid@bdo.co.zw
+          - generic [ref=e36]:
+            - generic [ref=e37]: Password
+            - textbox "Password" [ref=e38]: wrongpassword
+        - generic [ref=e39]: Network error. Please try again.
+        - link "Forgot password?" [ref=e42] [cursor=pointer]:
+          - /url: /password-reset
+          - img [ref=e43]
+          - text: Forgot password?
+        - button "Sign in" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - strong [ref=e51]: "Test Credentials:"
+          - text: "Admin: admin@bdo.co.zw / admin123"
+          - text: "User: john.doe@bdo.co.zw / user123"
+```
